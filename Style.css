@@ -86,3 +86,18 @@
     color: #fff;
   }
   
+  button {
+    padding: 12px 24px;              /* Bigger size */
+    font-size: 16px;                 /* Slightly larger text */
+    background-color: white;         /* Default background */
+    color: black;
+    border: 2px solid red;           /* Red border */
+    border-radius: 12px;             /* Rounded corners (red border will follow) */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  button:hover {
+    background-color: lightpink;     /* Light pink on hover */
+  }
+  
